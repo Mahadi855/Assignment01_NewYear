@@ -1,13 +1,14 @@
 :root {
-    background-color: black;
+    background-color: rgb(33, 33, 33);
     font-family: 'Inter', 'Merriweather', sans-serif;
 }
 
 * {}
 
 body {
-    margin: auto;
-    padding: 1px;
+    font-size: 0px;
+    margin: 0px auto;
+    padding: 0.1px 0px;
     width: 1600px;
     background: #FFF;
 }
@@ -76,6 +77,309 @@ body {
     height: 600px;
     flex-shrink: 0;
     margin: auto;
-    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(images/Vectorrr.png);
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(images/Vectorrr.png);
+    border-radius: 16px;
+    margin-bottom: 120px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
 }
 
+.block2_text {
+    margin-left: 120px;
+}
+
+.img1 {
+    margin-right: 138px;
+}
+
+.block2_caption {
+    color: #FFF;
+    font-family: 'Merriweather';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-bottom: 0;
+}
+
+
+.block2_sub_caption {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.block2_join {
+    margin-top: 0;
+    margin-left: 32px;
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.main_block3 {
+    padding-top: 1px;
+    text-align: center;
+    border-radius: 16px;
+    margin: auto;
+    width: 1320px;
+    height: 482px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    color: #070211;
+    font-family: 'Inter';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 120px;
+
+
+
+}
+
+.main_block3sub {
+    margin-top: 100px;
+}
+
+.block3red {
+    color: #F00;
+}
+
+.block3text {
+    margin: 0;
+    margin-bottom: 28px;
+}
+
+.btn_primary {
+    margin-top: 48px;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.main_block4 {
+    border-radius: 16px;
+    margin: auto;
+    width: 1320px;
+    height: 482px;
+    display: flex;
+    justify-content: space-between;
+
+    gap: 70px;
+}
+
+.main_block4>.colom {
+    width: 393px;
+}
+
+.block4h3 {
+    margin-top: 100px;
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.block4h2 {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+}
+
+.block4h4 {
+    margin-top: 20px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.block4h1 {
+    margin-top: 110px;
+    margin-bottom: 0px;
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.main_block5 {
+    width: 1068px;
+    margin: 110px auto 70px;
+    text-align: center;
+}
+
+.block5_sup_caption {
+    margin-bottom: 0%;
+    color: #070211;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.block5_caption {
+    margin-top: 20px;
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.main_block6 {
+    width: 1320px;
+    margin: auto;
+}
+
+.block6row1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.block6colom0 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.block6colom1 {
+    position: absolute;
+    right: 285px;
+}
+
+.block6colom2 {
+    width: 429px;
+    height: 433px;
+    border-radius: 16px 16px 0px 0px;
+    background: url(images/Rectangle\ 1.png), lightgray -59.98px 0px / 151.553% 100% no-repeat;
+}
+
+.block6row2 {
+    padding: 0%;
+    margin-top: 0%;
+}
+
+.main_block7 {
+    width: 1320px;
+    margin: auto;
+}
+
+.b7_row {
+    margin-top: 24px;
+    display: flex;
+    gap: 24px;
+}
+
+.main_block8 {
+    width: 1160px;
+    height: 456px;
+    margin: 120px auto;
+    padding: 80px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+}
+
+input {
+    width: 378px;
+    height: 12px;
+    padding: 30px;
+    flex-shrink: 0;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn_sub {
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+footer {
+    width: 1320px;
+    background: #070211;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 120px 140px;
+
+}
+
+.footflex{
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid   rgba(255, 255, 255, 0.15);
+}
+
+.footerimages{
+    padding: 48px 520px;
+    display: flex;
+    gap: 24px;
+    border-bottom: 1px solid   rgba(255, 255, 255, 0.15);
+}
+
+.footflex2{
+    display: flex;
+    justify-content: space-between;
+}
