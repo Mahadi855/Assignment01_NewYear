@@ -3,7 +3,7 @@
     font-family: 'Inter', 'Merriweather', sans-serif;
 }
 
-* {}
+
 
 body {
     font-size: 0px;
@@ -310,6 +310,25 @@ body {
     gap: 24px;
 }
 
+
+
+
+
+.b7_row img {
+    transition: 0.5s ease;
+}
+
+.b7_row img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+
+
+
+
 .main_block8 {
     width: 1160px;
     height: 456px;
@@ -365,21 +384,21 @@ footer {
 
 }
 
-.footflex{
+.footflex {
     padding-bottom: 50px;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid   rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-.footerimages{
+.footerimages {
     padding: 48px 520px;
     display: flex;
     gap: 24px;
-    border-bottom: 1px solid   rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-.footflex2{
+.footflex2 {
     display: flex;
     justify-content: space-between;
 }
